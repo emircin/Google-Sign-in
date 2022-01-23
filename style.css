@@ -78,6 +78,9 @@ a:hover{
     color: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
 }
+.gg:hover{
+    background-color: rgb(96, 118, 218);
+}
 nav{
     text-align: center;
     margin-top: 10px;
