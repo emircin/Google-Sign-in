@@ -82,17 +82,18 @@ nav{
     font-family:'Times New Roman', Times, serif;
 }
 footer{
-    height: 36px;
+    height: 25px;
     background-color: rgb(194, 194, 194);
-    padding-top: 14px;
-}
-.bos{
-    height: 256px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding:15px;
 }
 .ayar{
     display: flex;
     justify-content: right;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 a:visited{
     text-decoration: none;
