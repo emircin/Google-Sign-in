@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 header{
     height: 10%;
@@ -21,7 +22,7 @@ li{
 .ayar2{
     display: flex;
     justify-content: right;
-    margin-top: -17px;
+    margin-top: -18px;
     
 }
 .signin{
@@ -102,7 +103,7 @@ nav{
 }
 footer{
     height: 25px;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(238, 237, 237);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -114,7 +115,6 @@ footer{
     justify-content: right;
     margin-right: 20px;
 }
-a:visited{
-    text-decoration: none;
-    color: gray;
+#last{
+    font-weight: 500;
 }
