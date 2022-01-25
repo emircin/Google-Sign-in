@@ -15,12 +15,14 @@ li{
 .ayar1{
     display: flex;
     justify-content: left;
-    margin-top: 20px;
+    margin-top: 25px;
+    
 }
 .ayar2{
     display: flex;
     justify-content: right;
-    margin-top: -20px;
+    margin-top: -17px;
+    
 }
 .signin{
     padding: 10px;
@@ -29,9 +31,14 @@ li{
     font-size: 0.7rem;
     border: none;
     border-radius: 2px;
+    margin-top: -10px;
 }
-.menu{
-    margin-top: 5px;
+.kare{
+    margin-top: -5px;
+}
+.kare:hover{
+    background-color: rgb(199, 195, 195);
+    border-radius: 15px;
 }
 a{
     text-decoration: none;
@@ -55,30 +62,40 @@ a:hover{
     border-radius: 23px;
     padding-left: 50px;
     border: 1px solid rgb(190, 187, 187);
-    background-image: url("./images/magnifying_glass.jpg"), url("./images/google_microphone.png");
+    background-image: url("./images/magnifying_glass.jpg"), url("./images/mikrofon.png");
     background-size: contain, contain;
     background-repeat: no-repeat, no-repeat;
     background-position-y: 1px;
     background-position-x: 10px, 540px;
 }
+#search:focus{
+    outline: 0px;
+    box-shadow: 0px 0px 10px rgb(187, 185, 185);
+}
+#search:hover{
+    box-shadow: 0px 0px 10px rgb(187, 185, 185);
+}
 .arama{
     width: 400px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 .gg{
     width: 180px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 15px;
     border: none;
     color: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
 }
 .gg:hover{
     background-color: rgb(96, 118, 218);
+    box-shadow: 0px 0px 10px rgb(96, 118, 218);
+
 }
 nav{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family:'Times New Roman', Times, serif;
 }
 footer{
